@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Aula de Formulario</title>
+    </head>
+    <body>
+        <form>
+            <h3>Preencha o Formulário Abaixo:</h3>
+            <div>
+                <label for="name">Name
+                <input type="text" id="name"/>
+                </label>
+            </div>
+
+            <div>
+                <label for="email">Email
+                    <input type="email" id="email"/>
+                </label>
+            </div>
+
+            <div>
+                <input type="radio" name="preco" value="150">R$ 150,00
+                <input type="radio" name="preco" value="200">R$ 200,00
+                <input type="radio" name="preco" value="250">R$ 250,00
+                <input type="radio" name="preco" value="300">R$ 300,00
+            </div>
+
+            <div>
+                <input type="checkbox" name="varosprecos" value="150">R$ 150,00
+                <input type="checkbox" name="varosprecos" value="200">R$ 200,00
+                <input type="checkbox" name="varosprecos" value="250">R$ 250,00
+                <input type="checkbox" name="varosprecos" value="300">R$ 300,00
+            </div>
+
+            <div>
+                <label>
+                    Selecione a Cidade <br>               
+                    <select>
+                        <option value="" selected>Selecione uma Cidade</option>
+                        <option value="Belo Horizonte">Belo Horizonte</option>
+                        <option value="São Paulo">São Paulo</option>
+                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    </select>
+                
+                </label>
+            </div>
+            <div>
+                <label>Digite seu comentário<br>
+                <textarea>
+                    
+                </textarea>
+                </label>
+            </div>  
+            <button>Enviar Formulário</button>
+        </form>
+    </body>
+</html>
